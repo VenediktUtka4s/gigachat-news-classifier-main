@@ -6,3 +6,8 @@ pytest>=8,<9
 
 msgpack>=1.1,<2
 lz4>=4.4,<5
+
+# mega_parser.py (WEB/MAX/Telegram + GigaChat, без Google Sheets)
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+beautifulsoup4>=4.12,<5
