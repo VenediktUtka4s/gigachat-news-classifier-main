@@ -1,0 +1,44 @@
+# Локальные Python-окружения и установленные браузеры
+.env/
+.venv/
+venv/
+.playwright-browsers/
+
+# Браузерные сессии, диагностика и результаты сборов
+.data/
+.debug/
+output/
+*.log
+
+# Локальные настройки и данные авторизации
+table.txt
+.env
+.env.*
+!.env.example
+credentials.json
+google_credentials.json
+token.json
+gigachat_credentials.txt
+!gigachat_credentials.example.txt
+mega_parser_paths.json
+
+# Кеши Python и инструментов проверки
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Служебные файлы ОС и редакторов
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

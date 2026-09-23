@@ -1,0 +1,4 @@
+requests>=2.32,<3
+certifi
+google-auth[requests]>=2.38,<3
+pytest>=8,<9

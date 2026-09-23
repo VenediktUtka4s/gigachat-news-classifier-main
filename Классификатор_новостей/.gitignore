@@ -1,0 +1,38 @@
+# Локальные ключи и настройки
+api_key.txt
+api_key.*.txt
+!api_key.example.txt
+google_credentials.json
+service_account*.json
+credentials.json
+token.json
+table.txt
+.env
+.env.*
+!.env.example
+
+# Окружения, журналы и кеши
+.data/
+.env/
+.venv/
+venv/
+*.log
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Служебные файлы ОС и редакторов
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
